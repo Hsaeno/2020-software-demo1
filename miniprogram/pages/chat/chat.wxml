@@ -1,0 +1,10 @@
+<!--pages/chat/chat.wxml-->
+<view class="chat_seller">
+    <navigator url="../im/room/room" open-type="navigate" wx:for="{{chat_info}}" wx:key="key" class="chat_info">
+      <image src="{{item.photo}}"></image>
+      <view style="display:flex;flex-direction:colum;  align-items: initial;">
+        <text class="name">{{item.name}}</text>
+      <text class="time">{{item.time}}</text>
+      </view>
+    </navigator>
+  </view>

@@ -1,0 +1,37 @@
+<!--pages/post/post.wxml-->
+<view class="post_container">
+  <input class="title" placeholder-style="color: #aeaeae;" placeholder=" 标题， 品牌品类都是买家喜欢搜索的" value="{{searchValue}}"/>  
+  <view class="content">
+    <!-- <input class="reason" placeholder-class="placeholderinput" placeholder="描述一下宝贝的转手原因、入手渠道和使用感受" value="{{searchValue}}"/>   -->
+    <textarea class="reason" placeholder="  描述一下宝贝的转手原因、入手渠道和使用感受" decode="{{true}}" placeholder-style="color: #aeaeae;"></textarea>
+  </view>
+
+
+  <form bindsubmit="formSubmit" bindreset="formReset" > 
+ <view class='tu1'>   
+   <block wx:for="{{img_arr}}" wx:key="index">    
+    <view class='logoinfo'>      
+      <image class='logoinfo' mode="aspectFill" src='{{item}}' data-index="{{index}}" bindtap="previewImg" bindlongpress="deleteImg" name="headimage" ></image>      
+      </view>   
+       </block>
+       <view class="addpic">
+        <image bindtap='upimg' class='tu' src="../../images/add_pic.png"></image>
+       <text>添加图片</text>
+       </view>
+        </view>  
+    <view class="sellinfo">
+       <view class="price">
+         <text style=" position: relative; top: 35rpx;">价格：</text>
+        <input class="title" placeholder-style="color: #aeaeae;" placeholder="在此输入你的预想价格" value="{{searchValue}}"/> 
+       </view>
+       <view class="position">
+        <text  style=" position: relative; top: 35rpx;">位置：  </text>
+        <input class="title" placeholder-style="color: #aeaeae;" placeholder="请输入你的交易位置" value="{{searchValue}}"/> 
+       </view>
+       <view class="catagory"></view>
+     </view>  
+   <view class='an1'> 
+   <button form-type="submit" class='an'>发布</button>    
+   </view>  
+</form>
+</view>

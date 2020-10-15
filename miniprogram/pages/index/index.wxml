@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="1000" circular="true">
+    <block wx:for='{{background}}' wx:key="key">
+          <swiper-item>
+            <image src='{{item}}'></image>
+          </swiper-item>
+        </block>
+  </swiper>
+  <view class="search_menu">
+    <view class='page_row' bindtap="suo">  
+      <view class="search">  
+        <view class="df search_arr">  
+          <icon class="searchcion" size='20' type='search'></icon>  
+          <input class="" placeholder="请输入关键字" value="{{searchValue}}"/>  
+        </view>  
+      </view>  
+      <view class='sousuo'>
+        <text class = "sousuotext">搜索</text>
+      </view>  
+    </view>  
+  <!-- 首页分类 -->
+  <view class="m-menu">
+    <navigator open-type="navigate" wx:for="{{channel}}" wx:key="key">
+      <image src="{{item.imgurl}}"></image>
+      <text>{{item.name}}</text>
+    </navigator>
+  </view>
+  </view>
+  <view class="recommdant">
+    <text class="cnxh">猜你喜欢</text>
+    <navigator open-type="navigate" wx:for="{{user_rec}}" wx:key="key">
+      <view class=".recommdant_text_img">
+        <image src="{{item.img}}"></image>
+       <text class="recommdant_text">{{item.title}}</text>
+      </view>
+    </navigator>
+  </view>
+</view>

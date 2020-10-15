@@ -1,0 +1,186 @@
+/**index.wxss**/
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: #f5f6f7;
+}
+
+
+.banner {
+  width: 750rpx;
+  height: 400rpx;
+  font-size: 16rpx;
+}
+
+.banner image {
+  width: 100%;
+  height: 400rpx;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.search_menu {
+  border-radius: 30rpx ;
+  margin: 10rpx 25rpx 10rpx 25rpx;
+  background-color:white;
+}
+.m-menu {
+  display: flex;
+  height: 150rpx;
+  width: 700rpx;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rpx 0 10rpx;
+}
+
+.m-menu .item {
+  flex: 1;
+  display: block;
+  padding: 10rpx 0;
+}
+
+.m-menu image {
+  display: block;
+  width: 58rpx;
+  height: 58rpx;
+  margin: 0 auto;
+  margin-bottom: 12rpx;
+}
+
+.m-menu text {
+  display: block;
+  font-size: 24rpx;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1;
+  color: rgb(0, 0, 0);
+}
+.search{  
+  margin-top:15rpx ;
+  width: 80%;  
+}  
+.search_arr {  
+  border: 1px solid #d0d0d0;  
+  border-radius: 10rpx;  
+  margin-left: 20rpx;  
+}  
+.search_arr input{  
+  margin-left: 60rpx;  
+  height: 60rpx;  
+  border-radius: 5px;  
+}  
+.bc_text {  
+  line-height: 68rpx;  
+  height: 68rpx;  
+  margin-top: 34rpx;  
+}  
+  
+.sousuo {  
+  margin-top:15rpx;
+  margin-left: 15rpx;  
+  width: 15%;    
+  border: 1px solid #d0d0d0;  
+  border-radius: 10rpx;  
+}  
+.sousuotext{
+  text-align: center;
+  align-items: center;
+  margin-top: 15rpx;
+  position: relative;
+  left: 20rpx;
+  top: 8rpx;
+  font-size: 30rpx;
+}
+
+.page_row{  
+  display: flex;  
+  width: 700rpx;
+  flex-direction: row  
+}  
+.searchcion {  
+  margin: 10rpx 10rpx 10rpx 30rpx;  
+  position: absolute;  
+  left:25rpx;  
+  z-index: 2;  
+  width: 20px;  
+  height: 20px;  
+  text-align: center;  
+}  
+.recommdant{
+  display: flex;
+  width: 700rpx;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rpx 0 10rpx;
+  margin-left: 30rpx;
+  margin-bottom: 15rpx;
+}
+
+.recommdant .item {
+  flex: 1;
+  display: block;
+  border-radius: 30rpx ;
+  align-items: center;
+  background-color:white;
+}
+
+.recommdant_text_img {
+  border-radius: 30rpx ;
+  padding: 0 0 5rpx 0rpx;
+  background-color:white;
+  margin-top: 12rpx;
+}
+
+.img_title{
+  display: block;
+}
+
+.recommdant image {
+  display: block;
+  width: 300rpx;
+  height: 400rpx;
+}
+
+.recommdant_text {
+  display: block;
+  font-size: 24rpx;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  overflow:hidden;
+  font-weight: 600;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  margin-top: 12rpx;
+}
+
+.cnxh{
+  width: 750rpx;
+  text-align: center;
+  font-size: large;
+  font-weight: 800;
+  display: block;
+  margin-top: 20rpx;
+}

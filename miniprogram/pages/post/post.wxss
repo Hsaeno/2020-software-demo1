@@ -1,0 +1,96 @@
+/* pages/post/post.wxss */
+.post_container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 750rpx;
+  background-color: #f5f6f7;
+}
+.title{
+  background-color: white;
+  margin: 30rpx 20rpx 5rpx 20rpx;
+  color: #aeaeae;
+}
+.content{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0rpx 20rpx 5rpx 20rpx;
+}
+
+.reason{
+  height: 300rpx;
+  min-height:0.8rem;
+  width: 100%;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+}
+.weui-form__control-area{
+  margin-top: 0px;
+}
+
+.tu {  
+  /* border: 3rpx solid rgba(0, 0, 0, 0.329);  */
+  border-radius: 10rpx;  
+  height: 260rpx;  width:260rpx;  
+  margin: 5rpx 5rpx 5rpx 5rpx;   
+  }
+ .logoinfo { 
+  height: 220rpx; 
+   width: 220rpx; 
+    margin: 10rpx 10rpx 10rpx 10rpx;
+    }
+ .tu1 {  
+ display: flex;  
+ flex-flow: row wrap;  
+ align-content: space-around;
+ margin: 0rpx 20rpx 5rpx 20rpx;
+ background-color: white;
+ }
+ .an {  
+ height: 90rpx;  
+ width: 600rpx;  
+ font-size: 38rpx;  
+ background-color: #f94a4b;  
+ font-weight: 600;  
+ color: white;
+ }
+ button::after {  
+ border: none;
+ }
+ .an1 {  
+  margin-top: 50rpx;
+  width: 600rpx;
+  position: relative;
+  left: 50rpx;
+ }
+
+.submit{
+  width: 100%;
+  margin: 0rpx 20rpx 5rpx 20rpx;
+  background-color: white;
+}
+
+.addpic{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sellinfo{
+  background-color: white;
+  width: 100%;
+  margin: 0rpx 20rpx 5rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.price{
+  display: flex;
+  flex-direction: row;
+}
+.position{
+  display: flex;
+  flex-direction: row;
+}

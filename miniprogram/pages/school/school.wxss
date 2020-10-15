@@ -1,0 +1,38 @@
+.school_container
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 750rpx;
+  background-color: #f5f6f7;
+}
+.left-school_box
+{
+  flex: 1;
+  display: block;
+  flex-direction: column;
+  width: 350rpx;
+  background-color: white;
+  margin-bottom: 30rpx;
+  border-radius: 30rpx;
+  margin-left: 20rpx;
+}
+.left-school_box image{
+  width: 350rpx;
+}
+
+.right-school_box
+{
+  flex: 1;
+  display: block;
+  flex-direction: column;
+  width: 350rpx;
+  background-color: white;
+  margin-bottom: 30rpx;
+  border-radius: 30rpx;
+  margin-left: 20rpx;
+}
+.right-school_box image{
+  width: 350rpx;
+  height: 400rpx;
+}

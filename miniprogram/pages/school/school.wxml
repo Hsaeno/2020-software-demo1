@@ -1,0 +1,19 @@
+<!--pages/school/school.wxml-->
+<view class= "school_container">
+  <view class="left-culumn">
+  <navigator open-type="navigate" wx:for="{{school_info_left}}" wx:key="key">
+      <view class="left-school_box">
+        <image src="{{item.imgurl}}" class="userinfo_img"></image>
+       <text class="recommdant_text" style="font-weight:200">{{item.title}}</text>
+      </view>
+    </navigator>
+  </view>
+  <view class="right-culumn">
+  <navigator open-type="navigate" wx:for="{{school_info_left}}" wx:key="key">
+      <view class="right-school_box">
+        <image src="{{item.imgurl}}" class="userinfo_img"></image>
+       <text class="recommdant_text" style="font-weight:200">{{item.title}}</text>
+      </view>
+    </navigator>
+  </view>
+</view>

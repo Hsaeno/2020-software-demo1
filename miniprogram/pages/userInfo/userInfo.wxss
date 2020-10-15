@@ -1,0 +1,73 @@
+/* miniprogram/pages/userInfo/userInfo.wxss */
+page{
+  background-color: #f5f6f7;
+}
+.user_container{
+  background-color: #f5f6f7;
+  width: 100%;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.base-info{
+  width: 100%;
+  background-color: white;
+  margin: 15rpx 0 15rpx 0;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  position: relative;
+  bottom: 100rpx;
+  color: black;
+  font-weight: 600;
+  font-size: 30;
+}
+
+.userinfo-id {
+  color: black;
+  position: relative;
+  bottom: 50rpx;
+  font-size: 30;
+  left: -55rpx;
+}
+
+.user_menu{
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 60rpx;
+  background-color: white;
+  margin: 15rpx 0 15rpx 0;
+}
+.user_menu image{
+  display: block;
+  width: 58rpx;
+  height: 58rpx;
+  margin: 0 auto;
+  position: relative;
+  left: -280rpx;
+}
+.user_menu text{
+  font-size: 30rpx;
+  font-weight: 400;
+  position: relative;
+  left: -560rpx;
+  top: 8rpx;
+}
+
+.m-menu .item {
+  flex: 1;
+  display: block;
+  width: 100%;
+}
+
+
+

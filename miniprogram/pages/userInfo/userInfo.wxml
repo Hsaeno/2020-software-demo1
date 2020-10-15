@@ -1,0 +1,22 @@
+<!--miniprogram/pages/userInfo/userInfo.wxml-->
+<view class="user_container">
+<view class="userinfo">
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 微信账号登录 </button>
+  <block wx:else>
+    <view class="base-info">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <text class="userinfo-id">闲置号：Hsaenox</text>
+    </view>
+    <navigator open-type="navigate" wx:for="{{channel}}" wx:key="key">
+      <view class="user_menu">
+        <image src="{{item.imgurl}}" class="userinfo_img"></image>
+       <text class="recommdant_text">{{item.name}}</text>
+      </view>
+    </navigator>
+  </block>
+</view>
+<view>
+  
+</view>
+</view>

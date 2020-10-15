@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/chat/chat",
+    "pages/index/index",
+    "pages/post/post",
+    "pages/school/school",
+    "pages/userInfo/userInfo",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffd747",
+    "navigationBarTitleText": "ZUCC闲置交易平台",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#333",
+    "color": "#333",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./images/ic_menu_home_nor.png",
+        "selectedIconPath": "./images/ic_menu_home_pressed.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/school/school",
+        "iconPath": "./images/xiaoyuan.png",
+        "selectedIconPath": "./images/xiaoyuan_pressed.png",
+        "text": "校园"
+      },
+      {
+        "pagePath": "pages/post/post",
+        "iconPath": "./images/ic_menu_add_nor.png",
+        "selectedIconPath": "./images/ic_menu_add_nor.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "./images/ic_menu_chat_nor.png",
+        "selectedIconPath": "./images/ic_menu_chat_pressed.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/userInfo/userInfo",
+        "iconPath": "./images/ic_menu_me_nor.png",
+        "selectedIconPath": "./images/ic_menu_me_pressed.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap85.json"
+}
